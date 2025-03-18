@@ -11,6 +11,16 @@ namespace Clinic
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            // Application initialization code
+        }
+
+        protected void Application_BeginRequest(object sender, EventArgs e)
+        {
+            // Redirect root requests to the login page
+            if (Request.Url.AbsolutePath == "/" || Request.Url.AbsolutePath == "/Default.aspx")
+            {
+                Response.Redirect("~/Views/Login.aspx");
+            }
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Clinic.Models
 
         public Functions()
         {
-            ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\LENOVO\Documents\ClinicASPDb.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=False";
+            ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\lazir\Downloads\ClinicASPDb.mdf;Integrated Security=True;Connect Timeout=30";
             Con = new SqlConnection(ConStr);
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
