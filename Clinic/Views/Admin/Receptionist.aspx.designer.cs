@@ -57,7 +57,7 @@ namespace Clinic.Views.Admin
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword PasswordTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText PasswordTb;
 
         /// <summary>
         /// ErrMsg control.
@@ -96,12 +96,12 @@ namespace Clinic.Views.Admin
         protected global::System.Web.UI.WebControls.Button DeleteBtn;
 
         /// <summary>
-        /// DoctorsGV control.
+        /// ReceptionistGV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView DoctorsGV;
+        protected global::System.Web.UI.WebControls.GridView ReceptionistGV;
     }
 }
